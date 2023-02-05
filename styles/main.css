@@ -1,6 +1,6 @@
 :root {
-  --font-sans: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-sans: "Inter", "Segoe UI", Roboto, Helvetica, Arial, system-ui,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
   --blue-900: #1e3a8a;
   --blue-800: #1e40af;
