@@ -4,11 +4,233 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/bdf8886aba.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/main.css" />
     <title>Admin Dashboard: The Odin Project</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <div class="search-bar">
+        <form action="/">
+          <label for="header-search">
+            <span class="visually-hidden">Search:</span>
+          </label>
+          <input id="header-search" type="text" name="search-request" />
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span class="visually-hidden">Submit Search</span>
+          </button>
+        </form>
+      </div>
+
+      <div class="profile">
+        <i class="fa-solid fa-bell"></i>
+        <div class="profile-image">
+          <img src="#" alt="#" />
+        </div>
+        <p class="profile-username">Johnny Bravo</p>
+      </div>
+
+      <div class="greetings">
+        <div class="profile-image">
+          <img src="#" alt="#" />
+        </div>
+        <p>Hi there, <span class="username">Johnny Bravo (@jbravo)</span></p>
+      </div>
+
+      <div class="controls">
+        <button type="button">New</button>
+        <button type="button">Upload</button>
+        <button type="button">Share</button>
+      </div>
+    </header>
+
+    <aside>
+      <div id="logo">logo</div>
+      <nav id="side-menu">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-user"></i> Profile</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-message"></i> Messages</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-clock"></i> History</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-list-check"></i> Tasks</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-people-group"></i> Communities</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-gear"></i> Settings</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-circle-info"></i> Support</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-shield"></i> Privacy</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main>
+      <section class="projects">
+        <h2 class="section-title">Your Projects</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Admin Dashboard</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
+              exercitationem eligendi fugiat aliquam debitis est?
+            </p>
+            <div class="controls">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-regular fa-paper-plane"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Admin Dashboard</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
+              exercitationem eligendi fugiat aliquam debitis est?
+            </p>
+            <div class="controls">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-regular fa-paper-plane"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Admin Dashboard</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
+              exercitationem eligendi fugiat aliquam debitis est?
+            </p>
+            <div class="controls">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-regular fa-paper-plane"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Admin Dashboard</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
+              exercitationem eligendi fugiat aliquam debitis est?
+            </p>
+            <div class="controls">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-regular fa-paper-plane"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Admin Dashboard</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
+              exercitationem eligendi fugiat aliquam debitis est?
+            </p>
+            <div class="controls">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-regular fa-paper-plane"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Admin Dashboard</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
+              exercitationem eligendi fugiat aliquam debitis est?
+            </p>
+            <div class="controls">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-regular fa-paper-plane"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="announcements">
+        <h2 class="section-title">Announcements</h2>
+        <div class="container">
+          <div class="article">
+            <h4>Site Maintenance</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,
+              dignissimos...
+            </p>
+          </div>
+          <div class="article">
+            <h4>Site Maintenance</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,
+              dignissimos...
+            </p>
+          </div>
+          <div class="article">
+            <h4>Site Maintenance</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,
+              dignissimos...
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="trending">
+        <h2 class="section-title">Trending</h2>
+        <div class="container">
+          <div class="user">
+            <div class="profile-image">
+              <img src="#" alt="#" />
+            </div>
+            <div class="links">
+              <p class="username">@jbravo</p>
+              <p class="project-name">Admin Dashboard</p>
+            </div>
+          </div>
+          <div class="user">
+            <div class="profile-image">
+              <img src="#" alt="#" />
+            </div>
+            <div class="links">
+              <p class="username">@jbravo</p>
+              <p class="project-name">Admin Dashboard</p>
+            </div>
+          </div>
+          <div class="user">
+            <div class="profile-image">
+              <img src="#" alt="#" />
+            </div>
+            <div class="links">
+              <p class="username">@jbravo</p>
+              <p class="project-name">Admin Dashboard</p>
+            </div>
+          </div>
+          <div class="user">
+            <div class="profile-image">
+              <img src="#" alt="#" />
+            </div>
+            <div class="links">
+              <p class="username">@jbravo</p>
+              <p class="project-name">Admin Dashboard</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
